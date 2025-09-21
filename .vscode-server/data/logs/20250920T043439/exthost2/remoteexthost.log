@@ -1,0 +1,69 @@
+2025-09-20 04:36:35.325 [info] Extension host with pid 1151 started
+2025-09-20 04:36:35.373 [info] Lock '/home/camper/.vscode-server/data/User/workspaceStorage/dfa1c7b275d79670c8d2391968b0bfb9/vscode.lock': Lock acquired.
+2025-09-20 04:36:35.930 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-20 04:36:35.932 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-09-20 04:36:38.874 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:391:6611)
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:101:48518
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:101:50911
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:101:51982
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:101:54168
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:121:2591
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:122:2671
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:122:9338
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:124:21442
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:124:25509
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:124:27007
+    at /home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1:263
+    at Object.<anonymous> (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:928:5320)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1246:12)
+    at e._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at t._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at r._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-09-20 04:36:39.194 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-20 04:36:39.212 [info] ExtensionService#_doActivateExtension CodeRoad.coderoad, startup: false, activationEvent: 'onCommand:coderoad.start'
+2025-09-20 04:36:39.549 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-20 04:36:39.550 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-20 04:36:40.206 [info] Eager extensions activated
+2025-09-20 04:36:40.207 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:36:40.208 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:36:40.209 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:37:41.360 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+    at _ce.setItems (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16712)
+    at bl._computeFn (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16443)
+    at bl._recompute (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:8784)
+    at bl.get (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:8118)
+    at bl.reportChanges (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:466)
+    at Ece.endUpdate (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16225)
+    at gut (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:15943)
+    at bl.recomputeInitiallyAndOnChange (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:1060)
+    at Gk.init (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1378:1822)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Timeout._onTimeout (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:427:12)
+    at listOnTimeout (node:internal/timers:588:17)
+    at processTimers (node:internal/timers:523:7)
+2025-09-20 04:39:13.110 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-09-20 04:42:10.748 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-09-20 15:34:28.509 [info] Extension host terminating: received terminate message from renderer
+2025-09-20 15:34:28.510 [info] Lock '/home/camper/.vscode-server/data/User/workspaceStorage/dfa1c7b275d79670c8d2391968b0bfb9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-20 15:34:28.798 [info] Extension host with pid 1151 exiting with code 0

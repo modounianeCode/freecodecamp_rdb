@@ -1,0 +1,7 @@
+2025-09-20 04:34:41.938 [debug] MutationLogger "Persistent process "1" interaction state" set to "None", reason: initialized
+2025-09-20 04:34:42.069 [info] Revived process, old id f9738941590de39c2e66a4a434ede482-3 -> new id 1
+2025-09-20 15:34:41.357 [info] Revived process, old id dfa1c7b275d79670c8d2391968b0bfb9-4 -> new id 5
+2025-09-20 15:34:41.510 [info] Expanding terminal instance, old id dfa1c7b275d79670c8d2391968b0bfb9-4 -> new id 5
+2025-09-20 15:34:46.234 [warning] Persistent process "5": Process had no disconnect runners but was an orphan
+2025-09-20 15:34:46.234 [info] Persistent process reconnection "5"
+2025-09-20 15:34:46.629 [info] Persistent process "5": Replaying 1863 chars and 1 size events

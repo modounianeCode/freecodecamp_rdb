@@ -1,0 +1,15 @@
+[user]
+	name = Modou niane
+	email = mniane2005@gmail.com
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[merge]
+	tool = vimdiff
+[credential]
+	helper = "!f() { /home/camper/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node /tmp/vscode-remote-containers-40345ce1-e137-44e7-a6f0-c690cd0995e8.js git-credential-helper $*; }; f"

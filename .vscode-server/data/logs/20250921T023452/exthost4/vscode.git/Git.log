@@ -1,0 +1,36 @@
+2025-09-21 02:41:09.064 [info] [main] Log level: Info
+2025-09-21 02:41:09.064 [info] [main] Validating found git in: "git"
+2025-09-21 02:41:09.064 [info] [main] Using git "2.25.1" from "git"
+2025-09-21 02:41:09.064 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-21 02:41:09.064 [info] > git rev-parse --show-toplevel [5823ms]
+2025-09-21 02:41:09.064 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [829ms]
+2025-09-21 02:41:09.064 [info] [Model][openRepository] Opened repository (path): /workspace/project
+2025-09-21 02:41:09.064 [info] [Model][openRepository] Opened repository (real path): /workspace/project
+2025-09-21 02:41:09.064 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-21 02:41:09.066 [info] > git rev-parse --show-toplevel [780ms]
+2025-09-21 02:41:09.067 [info] > git config --get commit.template [791ms]
+2025-09-21 02:41:09.553 [info] > git rev-parse --show-toplevel [471ms]
+2025-09-21 02:41:09.559 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-21 02:41:09.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [357ms]
+2025-09-21 02:41:09.652 [info] > git status -z -uall [28ms]
+2025-09-21 02:41:09.653 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-09-21 02:41:09.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [50ms]
+2025-09-21 02:41:09.798 [info] > git config --get --local branch.master.vscode-merge-base [30ms]
+2025-09-21 02:41:09.799 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-21 02:41:09.813 [info] > git config --get commit.template [94ms]
+2025-09-21 02:41:09.973 [info] > git reflog master --grep-reflog=branch: Created from *. [161ms]
+2025-09-21 02:41:10.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [562ms]
+2025-09-21 02:41:10.578 [info] > git symbolic-ref --short refs/remotes/coderoad/HEAD [594ms]
+2025-09-21 02:41:10.578 [info] fatal: ref refs/remotes/coderoad/HEAD is not a symbolic ref
+2025-09-21 02:41:10.578 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-21 02:41:10.703 [info] > git status -z -uall [137ms]
+2025-09-21 02:41:10.772 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [195ms]
+2025-09-21 02:41:12.111 [info] > git config --get commit.template [11ms]
+2025-09-21 02:41:12.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-09-21 02:41:12.208 [info] > git status -z -uall [39ms]
+2025-09-21 02:41:12.548 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [364ms]
+2025-09-21 02:41:13.392 [info] > git config --get commit.template [12ms]
+2025-09-21 02:41:13.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-09-21 02:41:13.461 [info] > git status -z -uall [33ms]
+2025-09-21 02:41:13.463 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-09-21 02:44:43.786 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,0 +1,26 @@
+2025-09-20 04:35:32.513 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-09-20 04:35:32.513 [info] Can't use the Electron fetcher in this environment.
+2025-09-20 04:35:32.513 [info] Using the Node fetch fetcher.
+2025-09-20 04:35:32.513 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-09-20 04:35:32.513 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-09-20 04:35:32.513 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-09-20 04:35:35.069 [error] Error activating Copilot extension:: Activating extension 'GitHub.copilot' failed: Cannot find module '/home/camper/.vscode-server/extensions/github.copilot-1.372.0/dist/extension'
+Require stack:
+- /vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js.
+2025-09-20 04:35:35.070 [warning] Copilot API is undefined, unable to register context provider.
+2025-09-20 04:35:35.275 [info] Logged in as modounianeCode
+2025-09-20 04:35:37.670 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-09-20 04:35:37.689 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-09-20 04:35:37.689 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-09-20 04:35:37.793 [info] FetcherService: node-fetch succeeded
+2025-09-20 04:35:37.996 [info] FetcherService: node-fetch succeeded
+2025-09-20 04:35:38.002 [info] Got Copilot token for modounianeCode
+2025-09-20 04:35:38.045 [info] activationBlocker from 'languageModelAccess' took for 3022ms
+2025-09-20 04:35:39.343 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-09-20 04:35:39.343 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-20 04:35:39.470 [info] Registering default platform agent...
+2025-09-20 04:35:39.474 [info] activationBlocker from 'conversationFeature' took for 4459ms
+2025-09-20 04:35:41.522 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-09-20 04:35:42.094 [info] Fetched model metadata in 1624ms 0c79e513-61e6-427a-8c23-e86f7e967f62
+2025-09-20 04:35:42.127 [info] Latest entry: ccreq:latest.copilotmd
+2025-09-20 04:35:42.128 [info] ccreq:d2c5f43e.copilotmd | markdown

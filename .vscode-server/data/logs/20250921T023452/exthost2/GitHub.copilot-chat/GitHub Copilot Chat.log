@@ -1,0 +1,22 @@
+2025-09-21 02:37:03.982 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-09-21 02:37:03.982 [info] Can't use the Electron fetcher in this environment.
+2025-09-21 02:37:03.982 [info] Using the Node fetch fetcher.
+2025-09-21 02:37:03.982 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-09-21 02:37:03.982 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-09-21 02:37:03.982 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-09-21 02:37:05.343 [info] Logged in as modounianeCode
+2025-09-21 02:37:06.544 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-09-21 02:37:06.552 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-09-21 02:37:06.552 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-09-21 02:37:06.558 [info] FetcherService: node-fetch succeeded
+2025-09-21 02:37:06.732 [info] FetcherService: node-fetch succeeded
+2025-09-21 02:37:06.734 [info] Got Copilot token for modounianeCode
+2025-09-21 02:37:06.753 [info] activationBlocker from 'languageModelAccess' took for 1566ms
+2025-09-21 02:37:07.924 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-09-21 02:37:07.924 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-09-21 02:37:07.958 [info] Registering default platform agent...
+2025-09-21 02:37:07.960 [info] activationBlocker from 'conversationFeature' took for 2779ms
+2025-09-21 02:37:08.139 [info] Fetched model metadata in 2927ms db76644b-444f-456e-bca0-05fda09ab979
+2025-09-21 02:37:08.145 [info] Latest entry: ccreq:latest.copilotmd
+2025-09-21 02:37:08.146 [info] ccreq:49985995.copilotmd | markdown
+2025-09-21 02:37:09.072 [info] BYOK: Copilot Chat known models list fetched successfully.

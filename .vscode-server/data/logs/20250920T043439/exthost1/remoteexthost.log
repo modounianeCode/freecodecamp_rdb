@@ -1,0 +1,63 @@
+2025-09-20 04:34:55.619 [info] Extension host with pid 386 started
+2025-09-20 04:34:55.911 [info] Lock '/home/camper/.vscode-server/data/User/workspaceStorage/f9738941590de39c2e66a4a434ede482/vscode.lock': Lock acquired.
+2025-09-20 04:34:56.928 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-20 04:34:57.411 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-20 04:34:57.413 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-20 04:34:58.838 [info] Eager extensions activated
+2025-09-20 04:34:58.840 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:34:58.844 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:35:00.713 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-09-20 04:35:10.326 [info] ExtensionService#_doActivateExtension CodeRoad.coderoad, startup: false, activationEvent: 'onCommand:coderoad.start'
+2025-09-20 04:35:15.052 [error] Error: Command failed: git stash --include-untracked
+fatal: not a git repository (or any of the parent directories): .git
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1101:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-09-20 04:35:26.918 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:35:26.919 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-09-20 04:35:31.868 [error] Activating extension GitHub.copilot failed due to an error:
+2025-09-20 04:35:31.868 [error] Error: Cannot find module '/home/camper/.vscode-server/extensions/github.copilot-1.372.0/dist/extension'
+Require stack:
+- /vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js
+	at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+	at t._resolveFilename (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+	at Function.<anonymous> (node:internal/modules/cjs/loader:1175:37)
+	at e._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+	at t._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+	at r._load (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+	at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+	at Module.require (node:internal/modules/cjs/loader:1445:12)
+	at require (node:internal/modules/helpers:135:16)
+	at aJ.Cb (file:///vscode/vscode-server/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-09-20 04:36:23.667 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-09-20 04:36:23.667 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-09-20 04:36:23.668 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-09-20 04:36:23.668 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-09-20 04:36:23.668 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-20 04:37:41.232 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+	at _ce.setItems (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16712)
+	at bl._computeFn (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16443)
+	at bl._recompute (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:8784)
+	at bl.get (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:8118)
+	at bl.reportChanges (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:466)
+	at Ece.endUpdate (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:16225)
+	at gut (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:15943)
+	at bl.recomputeInitiallyAndOnChange (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:463:1060)
+	at Gk.init (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:1378:1822)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at Timeout._onTimeout (/home/camper/.vscode-server/extensions/github.copilot-chat-0.31.1/dist/extension.js:427:12)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2025-09-20 05:53:08.046 [info] Extension host terminating: received terminate message from renderer
+2025-09-20 05:53:08.053 [info] Lock '/home/camper/.vscode-server/data/User/workspaceStorage/f9738941590de39c2e66a4a434ede482/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-20 05:53:08.207 [info] Extension host with pid 386 exiting with code 0

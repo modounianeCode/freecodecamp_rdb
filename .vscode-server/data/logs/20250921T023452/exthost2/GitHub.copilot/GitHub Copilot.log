@@ -1,0 +1,5 @@
+2025-09-21 02:37:03.882 [warning] [default] editor.inlineSuggest.enabled is disabled. Enabling recommended to use Copilot.
+2025-09-21 02:37:04.245 [info] [certificates] Removed 3 expired certificates
+2025-09-21 02:37:06.289 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-09-21 02:37:06.289 [info] [code-referencing] Public code references are enabled.
+2025-09-21 02:37:07.489 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.

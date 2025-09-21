@@ -1,0 +1,44 @@
+2025-09-21 02:35:07.915 [info] [main] Log level: Info
+2025-09-21 02:35:07.915 [info] [main] Validating found git in: "git"
+2025-09-21 02:35:07.915 [info] [main] Using git "2.25.1" from "git"
+2025-09-21 02:35:07.915 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-21 02:35:07.915 [info] > git rev-parse --show-toplevel [580ms]
+2025-09-21 02:35:07.915 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [559ms]
+2025-09-21 02:35:07.915 [info] [Model][openRepository] Opened repository (path): /workspace/project
+2025-09-21 02:35:07.915 [info] [Model][openRepository] Opened repository (real path): /workspace/project
+2025-09-21 02:35:07.915 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-21 02:35:07.915 [info] > git rev-parse --show-toplevel [17ms]
+2025-09-21 02:35:07.915 [info] > git config --get commit.template [28ms]
+2025-09-21 02:35:08.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [43ms]
+2025-09-21 02:35:08.322 [info] > git rev-parse --show-toplevel [79ms]
+2025-09-21 02:35:08.328 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-21 02:35:08.343 [info] > git status -z -uall [33ms]
+2025-09-21 02:35:08.344 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [23ms]
+2025-09-21 02:35:08.460 [info] > git check-ignore -v -z --stdin [39ms]
+2025-09-21 02:35:08.461 [info] > git show --textconv :universe.sql [15ms]
+2025-09-21 02:35:08.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2025-09-21 02:35:08.483 [info] > git config --get --local branch.master.vscode-merge-base [12ms]
+2025-09-21 02:35:08.484 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-21 02:35:08.494 [info] > git ls-files --stage -- universe.sql [37ms]
+2025-09-21 02:35:08.517 [info] > git config --get commit.template [86ms]
+2025-09-21 02:35:08.522 [info] > git hash-object -t tree /dev/null [18ms]
+2025-09-21 02:35:08.522 [warning] [GitFileSystemProvider][stat] File not found - git:/workspace/project/universe.sql.git?%7B%22path%22%3A%22%2Fworkspace%2Fproject%2Funiverse.sql%22%2C%22ref%22%3A%22%22%7D
+2025-09-21 02:35:08.529 [info] > git reflog master --grep-reflog=branch: Created from *. [35ms]
+2025-09-21 02:35:08.561 [info] > git hash-object -t tree /dev/null [45ms]
+2025-09-21 02:35:08.562 [warning] [GitFileSystemProvider][readFile] File not found - git:/workspace/project/universe.sql.git?%7B%22path%22%3A%22%2Fworkspace%2Fproject%2Funiverse.sql%22%2C%22ref%22%3A%22%22%7D
+2025-09-21 02:35:09.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [602ms]
+2025-09-21 02:35:09.183 [info] > git symbolic-ref --short refs/remotes/coderoad/HEAD [643ms]
+2025-09-21 02:35:09.183 [info] fatal: ref refs/remotes/coderoad/HEAD is not a symbolic ref
+2025-09-21 02:35:09.183 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-21 02:35:09.335 [info] > git status -z -uall [165ms]
+2025-09-21 02:35:09.536 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [354ms]
+2025-09-21 02:35:09.746 [info] > git blame --root --incremental f715f90b52da1c824e59994f89efad2ce2458d17 -- universe.sql [11ms]
+2025-09-21 02:35:09.746 [info] fatal: no such path universe.sql in f715f90b52da1c824e59994f89efad2ce2458d17
+2025-09-21 02:35:12.194 [info] > git config --get commit.template [48ms]
+2025-09-21 02:35:12.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-09-21 02:35:12.288 [info] > git status -z -uall [50ms]
+2025-09-21 02:35:12.291 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-09-21 02:35:54.725 [info] > git config --get commit.template [16ms]
+2025-09-21 02:35:54.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-09-21 02:35:54.758 [info] > git status -z -uall [18ms]
+2025-09-21 02:35:54.761 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]

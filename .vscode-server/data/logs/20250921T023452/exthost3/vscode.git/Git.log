@@ -1,0 +1,39 @@
+2025-09-21 02:40:25.918 [info] [main] Log level: Info
+2025-09-21 02:40:25.918 [info] [main] Validating found git in: "git"
+2025-09-21 02:40:25.918 [info] [main] Using git "2.25.1" from "git"
+2025-09-21 02:40:25.918 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-21 02:40:25.918 [info] > git rev-parse --show-toplevel [17ms]
+2025-09-21 02:40:25.918 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-21 02:40:25.918 [info] > git rev-parse --show-toplevel [480ms]
+2025-09-21 02:40:25.941 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [860ms]
+2025-09-21 02:40:25.967 [info] [Model][openRepository] Opened repository (path): /workspaces/rdb-alpha
+2025-09-21 02:40:25.967 [info] [Model][openRepository] Opened repository (real path): /workspaces/rdb-alpha
+2025-09-21 02:40:25.967 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-21 02:40:25.975 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-21 02:40:25.996 [info] > git config --get commit.template [5ms]
+2025-09-21 02:40:26.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [120ms]
+2025-09-21 02:40:26.146 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/rdb-alpha/.git/refs/remotes/origin/main'
+2025-09-21 02:40:26.154 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-09-21 02:40:26.199 [info] > git status -z -uall [28ms]
+2025-09-21 02:40:26.843 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [656ms]
+2025-09-21 02:40:26.952 [info] > git check-ignore -v -z --stdin [44ms]
+2025-09-21 02:40:26.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [64ms]
+2025-09-21 02:40:26.979 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-09-21 02:40:26.997 [info] > git config --get commit.template [69ms]
+2025-09-21 02:40:27.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [346ms]
+2025-09-21 02:40:27.653 [info] > git merge-base refs/heads/main refs/remotes/origin/main [297ms]
+2025-09-21 02:40:27.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [348ms]
+2025-09-21 02:40:27.688 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/rdb-alpha/.git/refs/remotes/origin/main'
+2025-09-21 02:40:27.899 [info] > git show --textconv :Dockerfile [157ms]
+2025-09-21 02:40:27.900 [info] > git ls-files --stage -- Dockerfile [142ms]
+2025-09-21 02:40:27.915 [info] > git rev-parse refs/remotes/origin/main [227ms]
+2025-09-21 02:40:27.951 [info] > git diff --name-status -z --diff-filter=ADMR 76f210e5b2a7a82b77ea9f44862017cfb711d888...refs/remotes/origin/main [282ms]
+2025-09-21 02:40:28.341 [info] > git status -z -uall [409ms]
+2025-09-21 02:40:28.342 [info] > git cat-file -s bec64c0879f3ed85c6ace4d224eedfe9486944b9 [429ms]
+2025-09-21 02:40:28.430 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [480ms]
+2025-09-21 02:40:28.825 [info] > git config --get commit.template [57ms]
+2025-09-21 02:40:28.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-09-21 02:40:28.878 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/rdb-alpha/.git/refs/remotes/origin/main'
+2025-09-21 02:40:28.916 [info] > git rev-parse refs/remotes/origin/main [39ms]
+2025-09-21 02:40:28.982 [info] > git status -z -uall [51ms]
+2025-09-21 02:40:28.990 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
