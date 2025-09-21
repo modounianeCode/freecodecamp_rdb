@@ -480,7 +480,7 @@
 		"boxen": "^8.0.1",
 		"chalk": "^5.4.1",
 		"dependency-cruiser": "^17.0.1",
-		"electron": "^28.1.4",
+		"electron": "^38.1.2",
 		"esbuild": "^0.25.8",
 		"esbuild-plugin-copy": "^2.1.1",
 		"eslint": "^9.32.0",
