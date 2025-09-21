@@ -1,7 +1,0 @@
-FAILED TEST LOG
-  ✘ SUBTASKS 1.1 "before all" hook for ":1 "universe" database should exist"
-
-Error: Cannot connect to psql
-Error: connect ECONNREFUSED 127.0.0.1:5432
-at Context.<anonymous> (test/1.1.test.js:14:13)
-at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
